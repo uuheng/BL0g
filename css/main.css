@@ -1,3 +1,11 @@
+.main-wrapper{
+    background: #444 url(../img/banner.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
 header nav{
     background: rgba(0,0,0,0.1);;
     height: 50px;
@@ -184,11 +192,4 @@ ul.share-group{
 .copy{
     color: #fff;
     padding: 20px;
-}
-.main-wrapper{
-    background: #444 url(../img/banner.jpg);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
 }
