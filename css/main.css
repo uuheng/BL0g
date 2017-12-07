@@ -1,8 +1,8 @@
 .main-wrapper{
+    background-size: cover;
     background: #444 url(../img/b0.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: cover;
     background-position: center center;
 }
 a{
