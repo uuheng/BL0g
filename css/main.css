@@ -1,10 +1,13 @@
 header nav{
-    background: #ccc;
+    background: rgba(0,0,0,0.1);;
     height: 50px;
 }
 #banner{
-    height: 700px;
-    background: #777;
+    height: 720px;
+    background: transparent;
+}
+header{
+    background: rgba(0,0,0,0.4);
 }
 header nav ul{
     margin: 0;
@@ -39,6 +42,7 @@ header nav ul li.logo{
     /*padding: auto;*/
 }
 #banner .inner h1{
+    color: #ddd;
     margin: 0;
 }
 .sub-heading{
@@ -51,8 +55,8 @@ header nav ul li.logo{
     color: #fff;
 }
 button{
-    background: #333;
-    color: #eee;
+    background: #089DB0;
+    color: #eef;
     border: none;
     padding: 12px 20px;
 }
@@ -83,6 +87,7 @@ h2{
 }
 
 .hr{
+    background: #eee;
     height: 2px;
     width: 100%;
     margin: 20px auto;
@@ -101,4 +106,89 @@ h2{
     background: #0D6F7C;
     transform: rotate(45deg);
     margin: 20px;
+}
+.gray-section{
+    background: #252F34;
+    color: #fff;
+    font-size: 0px;
+}
+.gray-section .image-section{
+    width: 45%;
+}
+.image-section img{
+    width: 100%;
+}
+.gray-section .text-section{
+    width:55%;
+    position: relative;
+    top: 68px;
+    left: 0px;
+}
+.text-section p, .text-section h2{
+    width: 80%;
+    font-size: 20px;
+    letter-spacing: 1px;
+    position: relative;
+    left: 30px;
+}
+.article-preview > div{
+    float: left;
+}
+.clearfix:after{
+    content: '';
+    display: block;
+    clear:both;
+}
+.article-preview:nth-child(odd){
+    background-color: rgba(255,255,255,0.05);
+}
+.purple-section{
+    padding: 80px;
+    background: #3F3965;
+    color: #fff;
+}
+.purple-section .heading-wrapper{
+    text-align: center;
+}
+.purple-section .hr{
+    background: #373259;
+    width: 50%;
+}
+.card{
+    float: left;
+    width: 50%;
+    min-height: 300px;
+    /*padding: 20px;*/
+}
+footer{
+    margin: 0;
+    width:100%;
+    background: #333;
+    min-height: 80px;
+    text-align: center;
+}
+ul.share-group{
+    margin: 0px auto;
+    width: 60%;
+    padding-top:0px;
+    list-style: none;
+}
+.share-group li{
+    font-size: 20px;
+    color: #fff;
+    /*margin: */
+    margin-left: 0px;
+    display: inline-block;
+    padding: 10px;
+}
+.copy{
+    color: #fff;
+    padding: 20px;
+}
+.main-wrapper{
+    background: #444 url(../img/banner.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
