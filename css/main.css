@@ -99,13 +99,13 @@ h2{
 .green-section{
     color: #fff;
     /*background: #089DB0;*/
-    background: #999;
+    background: rgba(0,0,0,0.7);
     text-align: center;
     padding: 10px 0px;
     height: 600px;
 }
 .wrapper{
-    max-width: 1080px;
+    max-width: 100%;
     margin: 100px auto;
 }
 
@@ -140,13 +140,13 @@ h2{
     font-size: 0px;
 }
 .gray-section .image-section{
-    width: 45%;
+    width: 40%;
 }
 .image-section img{
     width: 100%;
 }
 .gray-section .text-section{
-    width:55%;
+    width:60%;
     position: relative;
     top: 68px;
     left: 0px;
