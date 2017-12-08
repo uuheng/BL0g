@@ -9,7 +9,7 @@ a{
     text-decoration: none;
 }
 header nav{
-    background: rgba(0,0,0,0.1);;
+    background: rgba(0,0,0,0.2);;
     height: 50px;
 }
 #banner{
@@ -20,9 +20,17 @@ header{
     background: rgba(0,0,0,0.3);
 }
 header nav ul{
+    /*box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box; */
+    /*max-width:350px;*/
     margin: 0;
+    /*position: relative;*/
+    /*left: 780px;*/
     list-style: none;
-    float: right;
+    /*float: right;*/
+    position: fixed;
+    right:0px;
 }
 header nav ul li, .logo{
     margin-right: 20px;
