@@ -1,6 +1,6 @@
-.main-wrapper{
-    background-size: cover;
+body{
     background: #444 url(../img/b0.jpg);
+    background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center center;
@@ -26,7 +26,6 @@ header nav ul{
 }
 header nav ul li, .logo{
     margin-right: 20px;
-    /*float: right;*/
     line-height:50px;
     display: inline-block;
 }
@@ -49,7 +48,6 @@ header nav ul li.logo{
     margin: 0 auto;
     position: relative;
     top: 160px;
-    /*padding: auto;*/
 }
 #banner .inner h1{
     color: #ddd;
@@ -59,12 +57,10 @@ header nav ul li.logo{
     height: 50px;
     margin: 0 auto;
     width: 60%;
-    /*width: 90px;*/
     color: #eee;
     background: #444;
 }
 .inner a{
-    /*background: #eee;*/
     color: #eee;
     height: 50px;
     width: 100%;
@@ -86,7 +82,6 @@ h2{
 }
 .logo{
     margin-left: 20px;
-    /*color: #fff;*/
     float: left;
     font-size: 20px;
     font-weight: 700;
@@ -98,7 +93,6 @@ h2{
 }
 .green-section{
     color: #fff;
-    /*background: #089DB0;*/
     background: rgba(0,0,0,0.7);
     text-align: center;
     padding: 10px 0px;
@@ -116,7 +110,6 @@ h2{
     margin: 20px auto;
 }
 .wrapper .hr{
-    /*background: #078494;*/
     background: #bbb;
     width: 60%;
 }
@@ -127,15 +120,12 @@ h2{
     display: inline-block;
     width: 80px;
     height: 80px;
-    /*background: #0D6F7C;*/
     background: #666;
     transform: rotate(45deg);
     margin: 20px;
 }
 
 .gray-section{
-    /*background: #252F34;*/
-    /*background: #bbb;*/
     color: #222;
     font-size: 0px;
 }
